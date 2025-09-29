@@ -14,9 +14,7 @@ Uploaded files are securely stored in an AWS S3 bucket. The frontend is deployed
 - [Usage](#usage)  
 - [Configuration](#configuration)  
 - [Folder Structure](#folder-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)
+  
 
 ## About
 
@@ -58,6 +56,18 @@ Navigate to frontend folder, install dependencies
 cd ../progress/progress
 npm install
 
+Usage
+Backend
+Start backend server locally (optional):
+
+bash
+node index.js
+Frontend
+Start frontend app locally (optional):
+
+bash
+npm start
+
 ## Configuration
 
 Add environment variables in `.env` file (create from `.env.example`):
@@ -66,6 +76,7 @@ AWS_SECRET_ACCESS_KEY=
 S3_BUCKET_NAME=intern-uploader-kavya
 AWS_REGION=ap-south-1
 
+##Folder Structure
 clean-repo/
 ├── .dist/                     # Build or compiled files (optional)
 ├── .env.example.txt           # Sample environment variables for backend config
