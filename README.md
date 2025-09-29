@@ -61,12 +61,12 @@ npm install
 
 Usage
 Backend
-Start backend server locally (optional):
+Start backend server locally (optional)
 
 bash
 node index.js
 Frontend
-Start frontend app locally (optional):
+Start frontend app locally (optional)
 
 bash
 npm start
