@@ -1,4 +1,4 @@
-# Progress-1
+# Cloud Platform Usage
 
 This is a web application project built with React and Node.js for file uploading.  
 Users can upload files such as txt, png, and image files (up to 5MB). PDFs are not accepted.  
