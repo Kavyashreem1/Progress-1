@@ -2,38 +2,26 @@
 
 This is a full-stack web application built with React (frontend) and Node.js + Express (backend) for uploading files.
 Uploaded files are securely stored in an AWS S3 bucket.
-
 Frontend deployed on Vercel
-
 Backend deployed on Render
 
 📑 Table of Contents
 
 About
-
 Features
-
 Demo
-
 Tech Stack
-
 Installation
-
 Usage
-
 Configuration
-
 Folder Structure 
   
 
 📌 About
 
 Challenge-1 is a cloud-based file uploader web app that allows users to upload files easily with:
-
 File type & size validation
-
 Secure storage on AWS S3
-
 Seamless cloud deployment (Vercel + Render)
 
 ✨ Features
@@ -47,17 +35,13 @@ Seamless cloud deployment (Vercel + Render)
 🚀 Demo
 
 Frontend (Live Site): https://progress-1-git-main-kavyashree-ms-projects.vercel.app
-
 Backend API: https://progress-1-ycb9.onrender.com
 
 🛠️ Tech Stack
 
 Backend / Runtime: Node.js, Express
-
 Frontend: React.js, CSS
-
 Cloud Storage: AWS S3
-
 Deployment: Vercel (frontend), Render (backend)
 
 ⚙️ Installation
