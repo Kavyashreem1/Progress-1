@@ -1,48 +1,66 @@
-# Cloud Platform Usage
+🌩️ Cloud Platform Usage – File Upload App
 
-This is a web application project built with React and Node.js for file uploading.  
-Users can upload files such as txt, png, and image files (up to 5MB). PDFs are not accepted.  
-Uploaded files are securely stored in an AWS S3 bucket. The frontend is deployed on Vercel and the backend on Render.
+This is a full-stack web application built with React (frontend) and Node.js + Express (backend) for uploading files.
+Uploaded files are securely stored in an AWS S3 bucket.
 
-## Table of Contents
+Frontend deployed on Vercel
 
-- [About](#about)  
-- [Features](#features)  
-- [Demo](#demo)  
-- [Tech Stack](#tech-stack)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Configuration](#configuration)  
-- [Folder Structure](#folder-structure)  
+Backend deployed on Render
+
+📑 Table of Contents
+
+About
+
+Features
+
+Demo
+
+Tech Stack
+
+Installation
+
+Usage
+
+Configuration
+
+Folder Structure 
   
 
-## About
+📌 About
 
-Progress-1 is a full-stack web app for file uploading with cloud storage integration and seamless deployment on modern platforms.
+Challenge-1 is a cloud-based file uploader web app that allows users to upload files easily with:
 
-It helps users upload files easily with size/type checks, and securely stores files in AWS S3.
+File type & size validation
 
-## Features
+Secure storage on AWS S3
 
-- Upload files (txt, png, jpg, jpeg, gif)
-- File size limit of 5MB
-- Secure cloud storage with AWS S3
-- Separate frontend and backend deployments
-- Live demo hosted on Vercel (frontend) and Render (backend)
+Seamless cloud deployment (Vercel + Render)
 
-## Demo
+✨ Features
 
-Live site frontend: [https://progress-1-git-main-kavyashree-ms-projects.vercel.app](https://progress-1-git-main-kavyashree-ms-projects.vercel.app)  
-Backend API: [https://progress-1-ycb9.onrender.com](https://progress-1-ycb9.onrender.com)
+✅ Upload supported files: txt, png, jpg, jpeg, gif
+✅ File size limit: 5MB
+✅ Secure AWS S3 cloud storage
+✅ Separate frontend & backend deployment
+✅ Live demo hosted on Vercel (frontend) + Render (backend)
 
-## Tech Stack
+🚀 Demo
 
-- **Backend / Runtime:** Node.js, Express  
-- **Frontend:** React.js, CSS  
-- **Cloud:** AWS S3 for file storage  
-- **Deployment:** Vercel (frontend), Render (backend)
+Frontend (Live Site): https://progress-1-git-main-kavyashree-ms-projects.vercel.app
 
-## Installation
+Backend API: https://progress-1-ycb9.onrender.com
+
+🛠️ Tech Stack
+
+Backend / Runtime: Node.js, Express
+
+Frontend: React.js, CSS
+
+Cloud Storage: AWS S3
+
+Deployment: Vercel (frontend), Render (backend)
+
+⚙️ Installation
 
 Clone the repository
 git clone https://github.com/Kavyashreem1/Progress-1.git
@@ -68,7 +86,7 @@ Start frontend app locally (optional):
 bash
 npm start
 
-## Configuration
+🔐 Configuration
 
 Add environment variables in `.env` file (create from `.env.example`):
 AWS_ACCESS_KEY_ID=
@@ -76,25 +94,22 @@ AWS_SECRET_ACCESS_KEY=
 S3_BUCKET_NAME=intern-uploader-kavya
 AWS_REGION=ap-south-1
 
-##Folder Structure
+📂 Folder Structure
 clean-repo/
-├── .dist/                     # Build or compiled files (optional)
-├── .env.example.txt           # Sample environment variables for backend config
-├── .gitignore.txt             # Git ignore rules for backend folders/files
-├── index.js                   # Backend Node.js server entry point
-├── node_modules/              # Backend installed dependencies (ignore in git)
-├── package-lock.json          # Backend dependency lock file
-├── package.json               # Backend dependencies and scripts
-└── progress/
-    └── progress/              # React frontend source code
-        ├── .env               # Frontend environment variables
-        ├── .gitignore         # Frontend git ignore rules
-        ├── node_modules/      # Frontend dependencies
-        ├── package-lock.json  # Frontend lock file
-        ├── package.json       # Frontend dependencies and scripts
-        ├── public/            # Public frontend assets
-        ├── src/               # React component source files
-        └── README.md          # Frontend-specific README (optional)
+├── index.js              # Backend Node.js server entry point
+├── package.json          # Backend dependencies
+├── .env.example          # Sample environment variables
+├── upload-backend/       # Backend server code
+│   ├── node_modules/     
+│   ├── package-lock.json 
+│   └── index.js          
+└── progress/             # React frontend source code
+    ├── public/           # Public assets
+    ├── src/              # React components
+    ├── package.json      
+    ├── package-lock.json 
+    └── .env              
+
 
 🎥 Demo Videos  
 - Challenge 1: [Watch Demo](https://drive.google.com/file/d/1cy-A-BvxWYTUKrXvGr4NVbCGoIncjc0C/view?usp=sharing)  
